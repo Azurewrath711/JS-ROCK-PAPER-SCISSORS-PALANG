@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    
+</head>
+    <link rel="stylesheet" href=".//assets/style.css">
+    
+<body>
+
+    <script defer src="./assets/main.js"></script>
+
+    <div class="container score">
+        <h3>PLAYER <span id="wins">0</span></h3>
+        <h3>COMPUTER <span id="losses">0</span></h3>
+        <h3>TIES <span id="ties">0</span></h3>
+        <div class="input-wrapper">
+            
+            <div class="weapon-select justify-content-center d-flex flex-wrap text-center">
+       
+        
+                
+                    
+                    <div class="card mt-2 pb-2" style="width: 18rem;">
+                        <div class="card-body">
+                            <image src="./assets/rockedited.jpg" class="card-img-top" alt="...">
+                          
+                          <input type="radio" name="choice" value= "Rock" id="Rock"/>Rock
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <image src="./assets/paperedited.jpg" class="card-img-top" alt="...">
+                          
+                          <input type="radio" name="choice" value= "Paper" id="Paper"/>Paper
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <image src="./assets/scissorsedited.jpg" class="card-img-top" alt="...">
+                          
+                          <input type="radio" name="choice" value= "Scissors" id="Scissors"/>Scissors
+                        </div>
+                    </div>
+
+                 
+
+        
+       
+      </div>
+      <div class= "bottomresult pt-5">
+        <div class = "ccc">COMPUTER CHOSE:</div> 
+        
+        <p id= "choiceDisplay"></p> 
+        <div class = "button"> <button onclick="play()">GO!</button> </div>
+        <div class= "label"><p id = "result"></p></div>
+      </div>
+  
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
